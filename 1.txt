@@ -1,0 +1,164 @@
+
+------------
+
+------------
+
+
+------------
+
+------------
+
+
+
+// стили для слоя: Icon
+width: 23px;
+height: 41px;
+
+// стили для слоя: Title
+
+------------
+font-size: 18px;
+line-height: 1.2;
+------------
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #353738;
+
+// стили для слоя: Text
+
+------------
+font-size: 16px;
+line-height: 29px;
+------------
+color: #848789;
+
+// стили для слоя: Icon
+width: 32px;
+height: 27px;
+
+// стили для слоя: AOD New York  @aod  /  35 min
+
+/* Text styles for "AOD New York @aod  " */
+/* 
+Text styles for "AOD New York @aod  "
+ */
+------------
+font-size: 18px;
+line-height: 1.2;
+------------
+letter-spacing: 0.1em;
+color: #353738;
+/* Text styles for "/35 min" */
+/* 
+Text styles for "/35 min"
+ */
+------------
+color: #848789;
+
+// стили для слоя: Text
+
+------------
+font-size: 24px;
+line-height: 34px;
+------------
+font-style: italic;
+color: #848789;
+
+// стили для слоя: Bg
+width: 533px;
+height: 267px;
+background-color: rgba(100,194,158,0.8);
+
+// стили для слоя: Shape 13
+width: 51px;
+height: 30px;
+
+// стили для слоя: Shop now
+
+------------
+font-size: 14px;
+line-height: 1.2;
+------------
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+
+// стили для слоя: DISCOVER THE SHOP
+
+------------
+font-size: 14px;
+line-height: 1.2;
+------------
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+
+// стили для слоя: Claim
+
+------------
+font-size: 24px;
+line-height: 34px;
+------------
+font-style: italic;
+color: #848789;
+
+// стили для слоя: GO
+
+------------
+font-size: 24px;
+line-height: 24px;
+------------
+color: #ffffff;
+
+// стили для слоя: enter your email... 
+
+------------
+font-size: 20px;
+line-height: 24px;
+------------
+font-style: italic;
+color: #929292;
+
+// стили для слоя: Text
+
+/* Text styles for "AOD New York'" */
+/* 
+Text styles for "AOD New York'"
+ */
+------------
+font-size: 16px;
+line-height: 17px;
+------------
+color: #848789;
+/* Text styles for "2250 Lexington Avenue 'New York, NY 10035  - info@domain.com" */
+/* 
+Text styles for "2250 Lexington Avenue 'New York, NY 10035  - info@domain.com"
+ */
+font-size: 13.9px;
+------------
+font-style: italic;
+
+// стили для слоя: Y E B O Logo
+width: 55px;
+height: 36px;
+
+// стили для слоя: Vector Smart Object
+width: 35px;
+height: 34px;
+
+// стили для слоя: Vector Smart Object
+width: 35px;
+height: 34px;
+
+// стили для слоя: Vector Smart Object
+width: 35px;
+height: 34px;
+
+// стили для слоя: Handcrafted by
+
+------------
+font-size: 13.9px;
+line-height: 17px;
+------------
+font-style: italic;
+color: #848789;
