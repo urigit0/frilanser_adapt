@@ -17,16 +17,22 @@ body {
    font-family: Lato;
    font-weight: 400;
    font-size: 16px;
+   margin: 0 0;
 }
-
+h1 {
+   font-family: Lato;
+   font-size: 18px;
+   line-height: 1.2;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+   color: #353738;
+}
 //-----------------ОБОЛОЧКА ---------------------------------------
 .wrapper {
    overflow: hidden;
-   background: url(../img/bg_main.jpg) no-repeat;
-   background-size: 100% auto;
-   background-position: center top;
-   width: 100%;
-   height: 800px;
+   max-width: 1600px;
+   margin: 0 auto;
 }
 .container {
    max-width: 1100px;
@@ -35,9 +41,61 @@ body {
 //-------------------HEADER-----------------------------------------
 .header {
    display: flex;
-   // padding-top: 100%;
-}
+   justify-content: center;
+   background-color: #222429;
+   background: url(../img/bg_main.jpg) no-repeat;
+   background-size: 100% auto;
+   background-position: center top;
+   width: 100%;
+   height: 500px;
 
+   //!!!!!!!!!!!!!!!!как подогнать размер блока под размер фона
+}
 .header__menu {
-   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   margin-top: 35px;
+}
+.header__menuSection {
+   display: flex;
+   justify-content: space-between;
+   min-width: 216px;
+}
+.justify_center {
+   justify-content: center;
+}
+.header__menutem {
+   font-family: Lato;
+   font-size: 13px;
+   line-height: 1.2;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+   text-decoration: none;
+   color: #4d4959;
+   margin-top: 28px;
+}
+.header__menuitemDot {
+   margin-top: 28px;
+}
+//------------------------------ABOUT US--
+
+.about-us {
+   padding: 117px 261px;
+}
+.about-us__icon {
+   display: flex;
+   justify-content: center;
+}
+.about-us__title {
+   text-align: center;
+   margin-top: 26px;
+}
+.about-us__text {
+   font-family: Lato;
+   font-size: 18px;
+   line-height: 34px;
+   font-weight: 400;
+   color: #848789;
+   text-align: center;
 }

@@ -31,7 +31,7 @@ let {
    dest
 } = require('gulp'),
    gulp = require('gulp'),
-   browsersync = require('browser-sync').create(),       
+   browsersync = require('browser-sync').create(),
    fileinclude = require('gulp-file-include'),
    del = require('del'),
    scss = require('gulp-sass'),
