@@ -1,0 +1,120 @@
+.header {
+   position: relative;
+}
+.header__bg {
+   display: flex;
+   justify-content: center;
+}
+.header__burger {
+   position: absolute;
+   z-index: 10;
+   top: 30px;
+   right: 30px;
+   display: none;
+   @media (max-width: 680px) {
+      display: block;
+      cursor: pointer;
+   }
+}
+.bar1,
+.bar2,
+.bar3 {
+   width: 35px;
+   height: 5px;
+   background-color: #64c29e;
+   margin: 5px 0;
+   transition: 0.4s;
+}
+
+.header__img {
+   width: 100%;
+   min-width: 680px;
+   min-height: 400px;
+   transition: 0.4s;
+   vertical-align: bottom;
+}
+
+.header__menu {
+   position: absolute;
+   top: 0;
+   display: flex;
+   justify-content: center;
+   margin-top: 35px;
+   width: 100%;
+   margin-top: 35px;
+   transition: 0.4s;
+   @media (max-width: 680px) {
+      flex-direction: column;
+      margin-top: -150px;
+   }
+}
+.header__menuSection {
+   display: flex;
+   justify-content: space-between;
+   min-width: 216px;
+   @media (max-width: 680px) {
+      flex-direction: column;
+      text-align: center;
+   }
+}
+.header__icon {
+   justify-content: center;
+   @media (max-width: 680px) {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      margin-top: 185px;
+   }
+}
+.header__menutem {
+   font-family: Lato;
+   font-size: 13px;
+   line-height: 1.2;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 0.2em;
+   text-decoration: none;
+   color: #4d4959;
+   margin-top: 28px;
+   @media (max-width: 680px) {
+      margin-top: 10px;
+      font-size: 20px;
+   }
+}
+.header__menuitemDot {
+   margin-top: 28px;
+   @media (max-width: 680px) {
+      display: none;
+   }
+}
+@media (max-width: 680px) {
+   // .header__menu {
+   //    margin-top: -150px;
+   // }
+}
+.change {
+   .bar1 {
+      transform: rotate(-45deg) translate(-7px, 6px);
+   }
+   .bar2 {
+      opacity: 0;
+   }
+   .bar3 {
+      transform: rotate(45deg) translate(-8px, -8px);
+   }
+
+   @media (max-width: 680px) {
+      .header__img {
+         opacity: 1;
+      }
+      .header__menu {
+         margin-top: 140px;
+      }
+      .header__icon {
+         margin-top: -100px;
+      }
+      .header__img {
+         opacity: 0.3;
+      }
+   }
+}

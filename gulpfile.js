@@ -47,7 +47,6 @@ let {
    ttf2woff2 = require('gulp-ttf2woff2');
    // svgSprite = require('gulp-svg-sprite');
 
-
 function browserSync() {                        // запуск сервера
    browsersync.init({
       server: {

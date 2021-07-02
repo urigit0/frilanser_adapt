@@ -1,0 +1,53 @@
+.twitter {
+   padding: 124px 277px;
+   background-color: #f7f7f7;
+   @media (max-width: 1200px) {
+      padding: 40px 80px;
+   }
+}
+.twitter__icon-blog {
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+.twitter__addr {
+   text-align: center;
+   font-size: 18px;
+   line-height: 1.2;
+   font-weight: 700;
+   letter-spacing: 0.1em;
+   color: #353738;
+   span {
+      font-weight: 300;
+      color: #848789;
+   }
+   margin-top: 28px;
+}
+.twitter_txt {
+   text-align: center;
+   font-size: 24px;
+   line-height: 34px;
+   font-weight: 400;
+   font-style: italic;
+   color: #848789;
+   margin-top: 17px;
+}
+.twitter__swipe {
+   text-align: center;
+   padding-top: 96px;
+}
+.twitter__dot {
+   cursor: pointer;
+   height: 11px;
+   width: 11px;
+   margin: 0 3px;
+   background-color: rgba(40, 47, 53, 0);
+   border: 1px solid #c8c8c8;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+}
+.active-dot,
+.twitter__dot:hover {
+   background-color: #a9afb3;
+}
