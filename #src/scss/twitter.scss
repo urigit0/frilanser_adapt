@@ -1,9 +1,18 @@
 .twitter {
-   padding: 124px 277px;
+   padding: 124px 277px 63px 277px;
    background-color: #f7f7f7;
    @media (max-width: 1200px) {
       padding: 40px 80px;
    }
+   @media (max-width: 414px) {
+      padding: 40px 20px;
+   }
+}
+.twitter__slide {
+   display: block;
+}
+.active__slide {
+   display: block;
 }
 .twitter__icon-blog {
    display: flex;

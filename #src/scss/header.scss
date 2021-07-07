@@ -25,7 +25,16 @@
    margin: 5px 0;
    transition: 0.4s;
 }
-
+.header__logo-block {
+   position: absolute;
+   top: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+.header__logo {
+   margin-top: 35px;
+}
 .header__img {
    width: 100%;
    min-width: 680px;

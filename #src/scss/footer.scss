@@ -1,0 +1,65 @@
+.footer {
+   padding: 0 250px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #f7f7f7;
+   margin-top: 106px;
+   @media (max-width: 1024px) {
+      padding: 0 80px;
+   }
+   @media (max-width: 670px) {
+      flex-direction: column;
+      margin-top: 35px;
+      margin-bottom: 20px;
+   }
+}
+.footer__text {
+   width: 300px;
+   font-size: 16px;
+   line-height: 17px;
+   font-weight: 700;
+   color: #848789;
+   @media (max-width: 670px) {
+      text-align: center;
+   }
+}
+.footer__text-1 {
+}
+.footer__text-2 {
+   font-size: 13.9px;
+   font-weight: 400;
+   font-style: italic;
+}
+.footer__icons {
+   width: 250px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10px;
+   @media (max-width: 670px) {
+      margin-top: 30px;
+   }
+}
+.footer__credits {
+   width: 300px;
+   display: flex;
+   justify-content: right;
+   align-items: center;
+   padding: 107px 0;
+   @media (max-width: 670px) {
+      justify-content: center;
+      padding: 10px 0;
+   }
+}
+.footer__credits-txt {
+   font-size: 13.9px;
+   line-height: 17px;
+   font-weight: 400;
+   font-style: italic;
+   color: #848789;
+}
+.footer__creduts-logo {
+   padding-top: 4px;
+   margin-left: 9px;
+}
